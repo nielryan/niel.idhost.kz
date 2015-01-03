@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- I'll write an explanation of everything that I use in my pages.-->
+<html>
+<head>
+<title>Kokshetau Hospital</title>
+
+<!-- This loads a JQuery file, JQuery is used to........ -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<!-- Load the Cloud Zoom JavaScript file -->
+<script type="text/JavaScript" src="http://www.professorcloud.com/js/cloud-zoom.1.0.2.js"></script>
+ 
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    $('#image1').addimagezoom({ // single image zoom
+        zoomrange: [3, 10],
+        //there is an additional option for increasing the magnification size
+     //   magnifiersize: [300,300],
+        magnifierpos: 'right',
+        cursorshade: true,
+        largeimage: 'images/sweetslarge.jpg' //<-- No comma after last option!
+    })
+})
+</script>
+
+<meta charset="UTF-8" />
+<style type="text/css">
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	border: 4px solid #888;
+	margin:-4px;	/* Set this to minus the border thickness. */
+	background-color:#fff;	
+	cursor:move;		
+}
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+}
+/* This is the zoom window. */
+.cloud-zoom-big {
+	border:4px solid #ccc;
+	overflow:hidden;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+	color:white;	
+	background:#222;
+	padding:3px;
+	border:1px solid #000;
+}
+</style>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<h1>Kokshetau Hospital Specials Page:</h1>
+
+
+<!-- This for instance is an opening html tag is shows..... This means.......-->
+These are some delicious sweets that will be available next week.
+<br><br>
+Hover your mouse over to take a closer look. 
+
+<h2>Something Sweet</h2>
+        <a href='images/sweetslarge.jpg' class = 'cloud-zoom' id='zoom1' rel="adjustX:10, adjustY:-4">
+            <img src="images/sweetssmall.jpg"  alt='' title="Delicious Sweets!" />
+        </a>
+
+
+Check back next week to purchase some sweets.
+
+
+
+</body>
+
+
+</html>
+<!--This is the closing HTML tag-->

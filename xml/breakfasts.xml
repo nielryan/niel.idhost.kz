@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="Sample.xsl" ?>
+
+<PRODUCTS>
+     <PRODUCT>
+       <TITLE>Product 1</TITLE>
+          <PRICE>10.00</PRICE>
+     </PRODUCT>
+     <PRODUCT>
+          <TITLE>Product 2</TITLE>
+          <PRICE>20.00</PRICE>
+     </PRODUCT>
+          <PRODUCT>
+       <TITLE>Product 3</TITLE>
+          <PRICE>10.00</PRICE>
+     </PRODUCT>
+     <PRODUCT>
+          <TITLE>Product 4</TITLE>
+          <PRICE>20.00</PRICE>
+     </PRODUCT>
+</PRODUCTS>
